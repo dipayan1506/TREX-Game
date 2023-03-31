@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dino.css" />
+    
+
+</head>
+<body >
+    <div id="game" class="game" >
+        <div id="dino">
+            
+        </div>
+        
+        <div id="cactus" class="cactus cactusAnimate " >
+            
+        </div>
+        <div id="cloud" >
+            <img id="cld1" class="cld1 cloudAnimate" src="./images/cloudbl-removebg-preview.png" >
+            <img id="cld2" class="cld2 cloudanimate" src="./images/cloudbl-removebg-preview.png" >
+            
+        </div>
+        <!-- <div >
+            <img class="cld2 cloudanimate" src="cloudbl.png" >
+        </div> -->
+        <div id="road" class="road roadAnimate">
+            <img class="road " src="./images/road3.png" data-road >
+            <!-- <img class="road1" src="road3.png" data-road > -->
+
+        </div>
+        
+
+        <div id="bird" class="birdAnimation">
+            <img  src="./images/bird-removebg-preview.png" >
+            
+        </div>
+
+        
+        <div id="gameOver" class="gameOver">Game Over</div>
+
+        <button type="button" id="Restartbutton" onclick=" window.location.reload()" class="Restartbutton">Play Again</button>
+    </div>
+    <div id="scoreCont"> Your Score:<span id="">0</span></div>
+    <div id="highscore">Highest Score: </div>
+
+    
+    
+    <script src="dino.js" charset="UTF-8"></script>
+    
+</body>
+</html>

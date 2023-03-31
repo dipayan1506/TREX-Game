@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(32, 31, 31);
+}
+.game {
+    width: 890px;
+    height: 355px;
+    border: 1px solid #000000;
+    margin: auto;
+    position: absolute;
+    top: 130px;
+    left: 275px;
+    /* background-color:#10de ; */
+    overflow: hidden;
+   
+}
+#dino {
+    width: 50px;
+    height: 50px;
+    background-image: url(./images/T-REX-removebg-removebg-preview.png); 
+    /* background-image: url(dinoN-removebg-preview.png); */
+    background-size: 50px 50px;
+    position: relative;
+    top: 256.9px; 
+    left: 10px;
+    color: white;
+    opacity: 200%;
+    /* bottom: 0; */
+     /* animation: dino 0.6s infinite linear;  */
+     /* animation: Dinom 1s steps(5) infinite ;  */
+
+    
+ }
+ .Restartbutton{
+    width: 108px;
+    height: 27px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    top:230px;
+    left: 360px;
+    background-color: yellow;
+    border: solid 1px;
+    border-radius: 30px;
+    visibility: hidden;
+ }
+.jump {
+    animation: dino 0.6s linear;
+}
+@keyframes dino {
+    0% {
+        top: 240.9px; 
+    }
+    30% {
+        top: 190px;
+    }
+    50% {
+        top: 145px;
+    }
+    80% {
+        top: 190px;
+    }
+    100% {
+        top: 240.9px;
+    }
+}
+ #cactus {
+    width: 80px;
+    height: 50px; 
+      background-image: url("./images/cactus2.png"); 
+     
+     position: absolute;
+    top: 253.4px;
+    left: 580px;
+    background-size: 80px 50px;
+     /* animation: cactusAnimate 2s infinite linear;  */
+ }  
+
+/* .singlecact{
+    width: 50px;
+    height: 50px; 
+    background-image: url("singlecact-remove.png");
+    position: absolute;
+    top: 258.4px;
+    left: 580px;
+    background-size: 50px 50px;
+} */
+.cactusAnimate{
+    animation: cactusAnimate 2.5s infinite linear;
+
+}
+/* @keyframes cactusAnimate {
+    0% {
+        left: 600px;
+    }
+    100% {
+        left: -50px;
+    }
+} */
+@keyframes cactusAnimate {
+    0% {
+        left: 900px;
+    }
+    100% {
+        left: -650px;
+    }
+}
+
+@keyframes cloudAnimate {
+    0% {
+        left: 1500px;
+    }
+    100% {
+        left: -50px;
+    }
+}
+.cloudAnimate{
+    animation:cloudAnimate 15s infinite linear ;
+}
+
+.cloudanimate{
+    animation:cloudanimate 15s infinite linear ;
+}
+
+@keyframes cloudanimate {
+    0% {
+        left: 900px;
+    }
+    100% {
+        left: -650px;
+    }
+}
+.cld1{
+    position: relative;
+    left: 100px;
+    /* background-image: url(cloudbl.png); */
+    top: 10px;
+     /* bottom:37px; */
+     
+} 
+ .cld2{
+    position: relative;
+    left: 400px;
+    top: -20px;
+    /* bottom: 48px; */
+ }
+
+#road {
+    height : 20px;
+    width: 2000px;
+    position: relative;
+    top: 208.5px;
+}
+.road{
+    height:50px;
+    width: 2000px;
+}
+.road1{
+    height:50px;
+    width: 1060px;
+
+}
+.roadAnimate{
+    animation: roadAnimate 5s infinite linear;
+
+
+}
+@keyframes roadAnimate{
+    0%{
+        left: 0;
+
+    }
+    100%{
+        left: -800px;
+    }
+}
+#bird {
+    height: 100%;
+    width: 1%;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    opacity: 500%;
+   
+
+}
+.birdAnimation{
+    animation: bird-block 2.5s infinite linear;
+   
+}
+@keyframes bird-block {
+    0% {
+        left: 1550px;
+    }
+    100% {
+        left: -25px;
+    }
+}
+
+#scoreCont{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 90px;
+    right: 200px;
+    /* font-family: "VT323"; */
+    color: white;
+    font-size: 25px;
+
+}
+#highscore{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 90px;
+    left:270px;
+    /* font-family: "ＭＳ Ｐゴシック"; */
+    color: white;
+    font-size: 25px;
+
+}
+#gameOver{
+    font-size:70px;
+    position: absolute;
+    left: calc(50% - 181px);
+    top: calc(50% - 40px);
+    width: 362px;
+    height: 70px;
+    color: black;
+
+}
+.gameOver{
+    visibility: hidden;
+}
+

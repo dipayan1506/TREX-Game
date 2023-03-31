@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    color: #222;
+    /* background-image: url(trexBG.png); */
+    /* overflow: hidden; */
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.navbar{
+    padding: .8rem;
+    background-color: #ffff00;
+    border-radius: 45px;
+    height: 90px;
+    /* width: 100%; */
+    padding-top: 5px;
+    /* position: absolute;
+    top: 5px; */
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+/* body{
+    /* background-color: aquamarine; */
+/* } */ 
+
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+
+}
+.carousel-caption{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-size: 500%;
+    /* text-transform: uppercase; */
+    text-shadow: 1px 1px 15px #000;
+    padding-bottom: 0.1rem;
+    font-weight: 500;
+
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    text-shadow: 1px 1px  10px #000;
+    padding-bottom: 1rem;
+}
+
+.btn-primary{
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
+
+}
+.btn-primary:hover {
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
+
+}
+
+.pading{
+    padding-bottom: 2rem;
+}
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.gif{
+    width: 80%;
+    border: 1px solid #000000;
+    margin: auto;
+    padding-top: 2rem;
+
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+footer{
+    background:#111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top:40px ;
+    color:#fff;
+    /* position: absolute;
+    bottom: 0; */
+
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 6px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+
+}
+.socials li{
+    margin: 0 10px;
+
+}
+.socials a{
+    text-decoration: none;
+    color:#fff;
+
+}
+.socials a i {
+   font-size: 1.1rem;
+   transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+
+}
+.footer-bottom{
+    background:#000;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
