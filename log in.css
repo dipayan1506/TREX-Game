@@ -21,7 +21,7 @@ body{
 body{
     height: 100%;
     width: 100%;
-    background-image: url(./images/the-land-of-dinosaurs.png);
+    background-image: url(the-land-of-dinosaurs.png);
 }
 .Box{
     background-color:#CDFCF6;

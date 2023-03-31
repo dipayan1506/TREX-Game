@@ -20,7 +20,7 @@ body{
 #dino {
     width: 50px;
     height: 50px;
-    background-image: url(./images/T-REX-removebg-removebg-preview.png); 
+    background-image: url(T-REX-removebg-removebg-preview.png); 
     /* background-image: url(dinoN-removebg-preview.png); */
     background-size: 50px 50px;
     position: relative;
@@ -70,7 +70,7 @@ body{
  #cactus {
     width: 80px;
     height: 50px; 
-      background-image: url("./images/cactus2.png"); 
+      background-image: url("cactus2.png"); 
      
      position: absolute;
     top: 253.4px;
