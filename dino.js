@@ -12,12 +12,19 @@ function setbackground(){
     window.setTimeout("setbackground()",8000);
     var i = 1;
     var colorvalue  ;
-    var i = Math.round(Math.random()*2);
-            if(i == 1 ){
+    var i = Math.floor(Math.random()*3);
+            if(i == 0 ){
                  colorvalue = "00FFFF";
             }
+            if(i == 1 ){
+                colorvalue = "#89CFF0";
+           }
             if(i == 2){
-                colorvalue = "0A2342";
+                colorvalue = "#89CFF0";
+
+            }
+            if(i == 3){
+                colorvalue = "00FFFF";
 
             }
         document.getElementById("game").style.backgroundColor = '#' + colorvalue;
