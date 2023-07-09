@@ -16,3 +16,5 @@ Here is the link of the game 👉
 https://trex-game1.netlify.app/
 
 so play and enjoy 🙂🙂
+
+### Have a good day!
