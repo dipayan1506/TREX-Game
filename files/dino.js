@@ -17,10 +17,10 @@ function setbackground(){
          colorvalue = "00FFFF";
     }
     if(i == 1 ){
-        colorvalue = "#89CFF0";
+        colorvalue = "00FFFF";
    }
     if(i == 2){
-        colorvalue = "#89CFF0";
+        colorvalue = "00FFFF";
 
     }
     if(i == 3){
